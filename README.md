@@ -30,10 +30,7 @@ Local API:
 
 | Argumento     | Tipo   | Descrição                           |
 | ------------- |:------:| ------------------------------------|
-| `search`      | String | Digitar parte do nome da cidade     |
-|               |		 | e serão retornadas todas as cidades | 
-|               |		 | que contenham o texto digitado      |
-| ------------- |:------:| ------------------------------------|
+| `search`      | String | Digitar parte do nome da cidade e serão retornadas todas as cidades que contenham o texto digitado      |
 
 Retorno JSON 
 
@@ -50,9 +47,7 @@ Retorno JSON
 
 | Argumento     | Tipo   | Descrição                           |
 | ------------- |:------:| ------------------------------------|
-| `id_city`     | Number | Será retornada a cidade com o ID    | 
-|               |		 | pesquisado      |
-| ------------- |:------:| ------------------------------------|
+| `id_city`     | Number | Será retornada a cidade com o ID pesquisado    | 
 
 Retorno JSON
  
