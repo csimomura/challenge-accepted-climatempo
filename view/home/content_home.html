@@ -1,0 +1,28 @@
+        <div id="divTopoFixo">
+            <div id="divLogoTopo">
+                <img id="imgLogoTopo" src="{DIR_HOME}/images/logo.png" border="0" />
+            </div>           
+
+            <select id="selectCidades" class="form-control select2-hidden-accessible" data-select2-id="1" tabindex="-1" aria-hidden="true">
+            </select>
+        </div>
+        <script id="template_previsao" type="template">
+            <div class="divPainelPrevisao">
+                <div class="divTopoPrevisao col4">
+                    <div class="divDataPrevisao">{{date}}</div>
+                    <div class="divTextoPrevisao">{{text}}</div>
+                </div>
+                <div class="divRodapePrevisao">
+                    <div class="divTempMaxPrevisao">{{temperature.max}}&#186;C</div>
+                    <div class="divTempMinPrevisao">{{temperature.min}}&#186;C</div>    
+                    <div class="divChuvaPreciPrevisao">{{rain.precipitation}}mm</div>
+                    <div class="divChuvaProbPrevisao">{{rain.probability}}%</div>
+                </div>
+                </div class="clear"></div>
+            </div>
+        </script>
+        <div id="divConteudo">
+            <div id="divDescricaoCidade"></div>
+            <div id="divPrevisoes">
+            </div>   
+        </div>

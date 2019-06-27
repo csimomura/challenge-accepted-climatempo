@@ -1,0 +1,140 @@
+body, html {
+    text-align: justify;    
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 14px;    
+    text-transform: inherit;
+    letter-spacing: 0.1px;    
+    line-height: 22px;
+    background: #e0e0e0;
+    min-width: 226px;
+}
+
+#divTopoFixo {
+    position: fixed;
+    width: 100%;
+    z-index: 999;   
+    top: 0px;
+    min-width: 226px;
+}
+
+#divLogoTopo {
+    background: #1565c0;
+    text-align: center;
+}
+
+#imgLogoTopo {
+    height: 20px;
+    margin: 15px;
+}
+
+#divConteudo {
+    margin-top: 79px;
+    background: #e0e0e0;
+    padding: 20px 10px;
+}
+
+#divDescricaoCidade {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px 15px 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* style div previsao */
+.divPainelPrevisao {
+    float: left;
+    min-width: 226px;
+    margin: 0px 10px 30px;
+    box-shadow: 0px 8px 10px #c3c3c3;
+}
+
+.divTopoPrevisao {
+    background: white;
+}
+
+.divTopoPrevisao, .divRodapePrevisao {
+    padding: 10px;
+}
+
+.divRodapePrevisao {
+    background: #eeeeee;
+    height: 80px;
+}
+
+.divDataPrevisao {
+    font-weight: bold;
+}
+
+.divTextoPrevisao {
+}
+
+.divTempMaxPrevisao, .divTempMinPrevisao, .divChuvaPreciPrevisao, .divChuvaProbPrevisao {
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 6px;
+
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 20px;
+    background-origin: content-box;
+}
+
+.divTempMaxPrevisao {
+    background-image: url("../../images/upload.png"); /* The image used */    
+}
+
+.divTempMinPrevisao {
+    background-image: url("../../images/download.png"); /* The image used */    
+}
+
+.divChuvaPreciPrevisao {
+    background-image: url("../../images/raindrop-close-up.png"); /* The image used */    
+}
+
+.divChuvaProbPrevisao {
+    background-image: url("../../images/umbrella.png"); /* The image used */    
+}
+
+.divTempMaxPrevisao {
+    color: #0277bd;
+}
+
+.divTempMinPrevisao {
+    color: #c62828;
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius: 0px;
+}
+
+@media (min-width: 1353px) {
+    .divPainelPrevisao {
+        width: 23.5%;
+    }         
+}    
+
+@media (max-width: 1353px) {
+    .divPainelPrevisao {
+        width: 30.5%;
+    }         
+}    
+
+@media (max-width: 770px) {
+    .divPainelPrevisao {
+        width: 46.5%;
+    }         
+}   
+
+@media (max-width: 606px) {
+    .divPainelPrevisao {
+        width: 94%;
+    }         
+}
+
